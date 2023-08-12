@@ -1,5 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
+    <symbol id="burger" viewBox="0 0 47 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.961 29.154h42.965M1.961 15.615h42.965M1.961 2.077h42.965"></path>
+    </symbol>
+    <symbol id="menu-close" viewBox="0 0 32 32">
+    <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M31.333 16c0 8.468-6.865 15.333-15.333 15.333s-15.333-6.865-15.333-15.333c0-8.468 6.865-15.333 15.333-15.333s15.333 6.865 15.333 15.333z"></path>
+    <path d="M21.333 11.741l-1.074-1.074-4.259 4.259-4.259-4.259-1.074 1.074 4.259 4.259-4.259 4.259 1.074 1.074 4.259-4.259 4.259 4.259 1.074-1.074-4.259-4.259 4.259-4.259z"></path>
+    </symbol>
     <symbol id="facebook" viewBox="0 0 32 32">
       <path fill="#f4f4fd" d="M21.329 5.313h2.921V.225C23.746.156 22.013 0 19.994 0c-4.212 0-7.097 2.649-7.097 7.519V12H8.249v5.688h4.648V32h5.699V17.689h4.46l.708-5.688h-5.169V8.082c.001-1.644.444-2.769 2.735-2.769z" style="fill:var(--color1, #f4f4fd)"/>
     </symbol>
