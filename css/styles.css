@@ -487,12 +487,11 @@ input {
 @media screen and (min-width: 1158px) {
     .preferences {
         display: flex;
+        flex-wrap: nowrap;
         justify-content: space-between;
         gap: 24px;
     }
-    .preferences-item {
-        width: calc((100% - 72px) / 4);
-    }
+    
     .preferences-icons {
         display: flex;
         justify-content: center;
@@ -532,6 +531,18 @@ input {
     margin-bottom: 8px;
 }
 
+.header-preferences {
+    font-size: 36px;
+}
+
+@media screen and (min-width: 1158px) {
+    .header-preferences {
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+
 /* Body */
 .body {
     color: var(--slate, #434455);
@@ -546,10 +557,17 @@ input {
 }
 
 .studio-img {
+    display: none;
+}
+
+@media screen and (min-width: 1158px) {
+    .studio-img {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    }
 }
+
 
 /* Body Medium */
 .body-medium {
