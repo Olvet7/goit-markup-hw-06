@@ -836,7 +836,7 @@ input {
         gap: 72px;
         justify-content: center;
     }
-}
+}   
 
 @media screen and (min-width: 1158px) {
     .ftr-container {
@@ -1058,11 +1058,9 @@ input {
         display: flex;
         gap: 24px;
         margin-bottom: 16px;
-        margin-bottom: 8px;
         text-align: left;
     }
 }
-
 
 .email-area {
     border-radius: 4px;
