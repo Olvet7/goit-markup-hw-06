@@ -831,6 +831,7 @@ input {
 @media screen and (max-width: 767px) {
     .ftr-container {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         gap: 72px;
         justify-content: center;
@@ -840,6 +841,7 @@ input {
 @media screen and (min-width: 1158px) {
     .ftr-container {
         display: flex;
+        flex-direction: row;
         align-items: baseline;
         padding: 0 15px;
     }
@@ -848,6 +850,14 @@ input {
 .ftr-descr {
     margin: 0 auto;
     max-width: 268px;
+}
+
+@media screen and (min-width: 786px) {
+ .ftr-descr {
+    margin: 0 auto;
+    max-width: 268px;
+}
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -969,7 +979,7 @@ input {
 .form-container {
     text-align: center;
     margin: 0 auto;
-}
+} 
 
 @media screen and (min-width: 1158px) {
     .form-container {
@@ -984,6 +994,15 @@ input {
     gap: 24px;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .subscribe {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-self: flex-start;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1031,11 +1050,16 @@ input {
     line-height: 1.5em;
     letter-spacing: 0.02em;
     margin: 0;
+    margin-bottom: 16px;
 }
 
-@media screen and (min-width: px) {
+@media screen and (min-width: 768px) {
     .ftr-subscribe {
+        display: flex;
+        gap: 24px;
         margin-bottom: 16px;
+        margin-bottom: 8px;
+        text-align: left;
     }
 }
 
