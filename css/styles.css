@@ -828,7 +828,7 @@ input {
 
 /* Footer */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .ftr-container {
         display: flex;
         flex-direction: column;
@@ -845,9 +845,15 @@ input {
     }
 }
 
+.ftr-descr {
+    margin: 0 auto;
+    max-width: 268px;
+}
 
-.frt-descr {
-    margin-right: 120px;
+@media screen and (min-width: 1158px) {
+    .ftr-descr {
+        margin-right: 120px;
+    }
 }
 
 .ftr-page {
@@ -867,6 +873,7 @@ input {
 }
 
 .ftr-media {
+    margin: 0 auto;
     color: var(--white-background);
     font-size: 16px;
     font-weight: 500;
@@ -874,10 +881,18 @@ input {
     letter-spacing: 0.02em;
 
     fill: var(--light);
-    margin: 0;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.frt-icon {
+@media screen and (min-width: 1158px) {
+    .ftr-media {
+        margin: 0;
+        text-align: left;
+    }  
+}
+
+.ftr-icon {
     width: 40px;
     height: 40px;
     transition: var(--primary_brand) 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -914,7 +929,7 @@ input {
     background-color: var(--success);
 }
 
-.frt-icon {
+.ftr-icon {
     fill: var(--primary_brand);
 }
 
@@ -928,7 +943,7 @@ input {
     text-transform: uppercase; 
 }
 
-.logo-web-frt {
+.logo-web-ftr {
     color: var(--primary_brand);
     font-size: 18px;
     text-transform: uppercase;
@@ -937,15 +952,29 @@ input {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
-    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
 }
 
+@media screen and (min-width: 1158px) {
+    .logo-web-ftr {
+        display: inline-block; 
+    }
+}
 
 /* Subscribe */
+
+.form-container {
+    text-align: center;
+    margin: 0 auto;
+}
 
 @media screen and (min-width: 1158px) {
     .form-container {
         margin-left: 80px;
+        text-align: left;
     }
 }
 
@@ -953,6 +982,17 @@ input {
     position: relative;
     display: flex;
     gap: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 1158px) {
+    .subscribe {
+        /* position: relative; */
+        flex-direction: row;
+        display: flex;
+        gap: 24px;
+    }
 }
 
 .subscribe-area {
@@ -990,9 +1030,15 @@ input {
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.02em;
-
-    margin-bottom: 16px;
+    margin: 0;
 }
+
+@media screen and (min-width: px) {
+    .ftr-subscribe {
+        margin-bottom: 16px;
+    }
+}
+
 
 .email-area {
     border-radius: 4px;
@@ -1047,7 +1093,9 @@ input {
     padding: 8px 64px 8px 24px;
     min-width: 165px;
     cursor: pointer;
+    position: relative;
 }
+
 
 .ftr-form-icon {
     fill: var(--white-background);
