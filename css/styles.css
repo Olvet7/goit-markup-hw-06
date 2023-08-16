@@ -586,17 +586,20 @@ input {
     }
 }
 
-.ach-section {
-    /* display: none; */
-}
+
 
 .achievement {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
 
 
 @media screen and (max-width: 1178px) {
     .achievement {
+        display: none;
+    }
+
+    .ach-section {
         display: none;
     }
 }
