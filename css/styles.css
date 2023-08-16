@@ -355,16 +355,32 @@ input {
 }
 
 .cards {
-    padding: 0 66px;   
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 72px;
+        /* padding-left: calc((100% - 268px) / 2);
+        padding-right: calc((100% - 268px) / 2); */
+    }
 }
 
 @media screen and (min-width: 768px) {
     .cards {
         max-width: 1157px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        gap: 24px;
+        row-gap: 64px;
+        column-gap: 24px;
         padding: 0 92px;
     }
 }
@@ -372,6 +388,8 @@ input {
 @media screen and (min-width: 1158px) {
     .cards {
         padding: 0;
+        justify-content: space-between;
+        gap: 24px;
         flex-wrap: nowrap;
     }
 }
@@ -388,29 +406,42 @@ input {
     flex-shrink: 0;
 }
 
-.team-member-card:not(:last-child) {
+@media screen and (max-width: 468px) {
+ .team-member-card:not(:last-child) {
     margin-bottom: 72px;
+}
+
 }
 
 .team-member-card {
     background-color: var(--white-background);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     .team-member-card {
         flex-basis: calc((100% - 72px) / 2);
-        margin-bottom: 72px;
+        /* display: inline-block; */
     }
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1158px){
+    .team-member-card {
+        margin-top: 0;
+        margin-bottom: 0;        
+    }
+
+    .cards {
+        padding: 0;
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .team-member-card {
         width: calc((100% - 72px) / 4);
-        margin-bottom: 72px;
+        /* margin-bottom: 72px; */
     }
 }
 
@@ -556,10 +587,18 @@ input {
 }
 
 .ach-section {
-    display: none;
+    /* display: none; */
 }
+
 .achievement {
-    display: none;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 1178px) {
+    .achievement {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1158px) {
