@@ -320,16 +320,16 @@ input {
     }
 }
 
-@media screen (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
     .hero-image {
         min-width: 1158px;
-        max-width: 1158px;
-        padding-top: 188px;
+        /* max-width: 1158px; */
+        /* padding-top: 188px; */
         padding-bottom: 188px;
         margin: 0 auto;
-        min-width: 1440px;
-        max-width: 1440px;
-        max-height: 600px;
+        /* min-width: 1440px;
+        max-width: 1440px; */
+        /* max-height: 600px; */
     }
 }
 
@@ -779,9 +779,15 @@ input {
 
 /* Five Section */
 
-.customers {
-    padding-bottom: 96px;
+/* .customers {
+    padding: 0;
 }
+
+@media screen and (max-width: 1157px) {
+    .customers {
+        padding-bottom: 96px;
+    }
+} */
 
 .customers-list {
     display: flex;
@@ -842,6 +848,11 @@ input {
 
 .customers-section {
     background-color: var(--white-background);
+    padding: 0;
+}
+
+.customers-section {
+    padding: 96px 0;
 }
 
 @media screen and (min-width: 1158px) {
@@ -951,7 +962,7 @@ input {
 
 @media screen and (min-width: 468px) and (max-width: 768px){
     .ftr-container {
-        max-width: 584px;
+        /* max-width: 584px; */
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -1766,7 +1777,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
     height: 100vh;
     padding: 32px;
-    background-color: #3f51b5;
+    background-color: var(--white-background);
     z-index: 999;
   
     transform: translateX(100%);
@@ -1788,6 +1799,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   .mobile-menu {
     padding: 0;
     margin: 0;
+    margin-top: 56px;
     list-style: none;
     margin-bottom: 284px;
   }
@@ -1795,7 +1807,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   .mobile-menu .link {
     display: inline-block;
     padding: 10px;
-    color: #fff;
+    color: var(--dark);
     text-decoration: none;
     padding: 0;
   }
@@ -1834,7 +1846,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  
   .mob-pages {
     color: var(--hero-background);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
   }
+
+  .mob-pages:hover, 
+  .mob-pages:focus {
+    color: var(--primary_brand);
+  }
+
     .mob-icon {
 
     }
