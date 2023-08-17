@@ -460,8 +460,7 @@
     <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
           <svg
-            fill="currentColor"
-            viewBox="0 0 20 20"
+            
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -473,13 +472,52 @@
             ></path>
           </svg>
         </button>
-  
-        <ul class="mobile-menu">
-          <li><a href="" class="link">About</a></li>
-          <li><a href="" class="link">Products</a></li>
-          <li><a href="" class="link">Contacts</a></li>
-          <li><a href="" class="link">Career</a></li>
-        </ul>
+        
+        <div class="mobile-menu-page">
+            <div class="top-menu">
+                <ul class="mobile-menu">
+                  <li class="mob"><a href="" class="link header-two mob-pages">Studio</a></li>
+                  <li class="mob"><a href="" class="link header-two mob-pages">Portfolio</a></li>
+                  <li class="mob"><a href="" class="link header-two mob-pages">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="mob-contacts">
+                <a href="tel:+110001111111" class="link" target="_blank" rel="noopener norefferrer"><p class="header-two mob-tel">+11 (000) 111-11-11</p></a>
+                <a class="link header-tree mob-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <ul class="list mob-version-list">
+                    <li class="mob-icon">
+                        <a href="" rel="noopener norefferrer" class="mob-link">
+                            <svg class="mob-media" width="16" height="16">
+                            <use href="./images/icons.svg#instagram" class="team-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-icon">
+                        <a href="" rel="noopener norefferrer" class="mob-link">
+                            <svg class="mob-media" width="16" height="16">
+                            <use href="./images/icons.svg#twitter" class="team-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-icon">
+                        <a href="" rel="noopener norefferrer" class="mob-link">
+                            <svg class="mob-media" width="16" height="16">
+                            <use href="./images/icons.svg#facebook" class="team-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-icon">
+                        <a href="" rel="noopener norefferrer" class="mob-link">
+                            <svg class="mob-media" width="16" height="16">
+                            <use href="./images/icons.svg#linkedin" class="team-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+
+        </div>
       </div>
   
       <script
@@ -488,7 +526,7 @@
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"
       ></script>
-      <script defer src="./mobile-menu.js"></script>
+      <script defer src="./js/mobile-menu.js"></script>
 
     <script src="./js/modal.js"></script>
 
