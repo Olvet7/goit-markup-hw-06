@@ -1283,14 +1283,23 @@ input {
     padding: 96px 0 120px 0;
 }
 
-@media screen and (min-width: 467px) {
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    max-width: 320px;
+    gap: 24px;
+    row-gap: 16px;
+}
+
+@media screen and (min-width: 468px) {
     .filters {
-        display: flex;
+        /* display: flex;
         flex-wrap: wrap;
-        justify-content: start;
-        max-width: 320px;
-        gap: 24px;
-        row-gap: 16px;
+        justify-content: start; */
+        min-width: 320px;
+        /* gap: 24px;
+        row-gap: 16px; */
     }
 }
 
@@ -1300,7 +1309,7 @@ input {
         max-width: 586px;
         margin: 0 auto;
         padding: 0 0;
-        max-width: 100%;
+        /* max-width: 100%; */
     }
 }
 
