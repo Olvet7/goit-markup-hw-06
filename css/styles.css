@@ -1898,10 +1898,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .mob-link {
-        
-    }
-
-  .mob-link {
     display: inline-block;
     margin-bottom: 42px;
   }
@@ -1923,12 +1919,4 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   .mob-pages:hover, 
   .mob-pages:focus {
     color: var(--primary_brand);
-  }
-
-    .mob-icon {
-       
-    }
-  
-  .mob-contacts {
-    
   }
