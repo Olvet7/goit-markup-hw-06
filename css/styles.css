@@ -499,9 +499,16 @@ input {
 
 .team-section {
     background-color: var(--light);
+    padding-top: 96px;
+    padding-bottom: 96px;
+    flex-shrink: 0;
+}
+
+@media screen and (min-width: 1158px) {
+    .team-section {
     padding-top: 120px;
     padding-bottom: 120px;
-    flex-shrink: 0;
+    }
 }
 
 @media only screen and (max-width: 427px) {
@@ -988,7 +995,7 @@ input {
 
 .customers-link {
     display: flex;
-    width: 168px;
+    /* width: 168px; */
     height: 88px;
     /* flex-shrink: 0; */
     justify-content: center;
