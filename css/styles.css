@@ -575,8 +575,20 @@ input {
     display: none;
 } 
 
-.preferences-item:not(:last-child) {
+.preferences-item: {
     margin-bottom: 72px;
+}
+
+/* @media screen and (max-width: 768px) {
+    .preferences-item {
+        margin-bottom: 72px;
+    }
+} */
+
+@media screen and (max-width: 1158px) {
+    .preferences-item {
+        margin-bottom: 72px;
+    }
 }
 
 .header-preferences {
