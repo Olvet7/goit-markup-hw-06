@@ -358,7 +358,7 @@ input {
    display: flex;
    flex-direction: column;
    /* gap: 24px; */
-   margin: 0 auto;
+   /* margin: 0 auto; */
 }
 
 @media screen and (min-width: 468px) {
@@ -370,10 +370,10 @@ input {
 
 @media screen and (max-width: 767px) {
     .cards {
-        min-width: 100%;
+        /* width: 100%; */
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         /* gap: 72px; */
         /* padding-left: calc((100% - 268px) / 2);
         padding-right: calc((100% - 268px) / 2); */
@@ -386,11 +386,12 @@ input {
         max-width: 1157px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
         row-gap: 64px;
         column-gap: 24px;
-        padding: 0 92px;
+        /* padding: 0 92px; */
+        padding: 0;
     }
 }
 
@@ -435,6 +436,7 @@ input {
     .team-member-card {
         flex-basis: calc((100% - 72px) / 2);
         /* display: inline-block; */
+        margin: 0;
     }
 }
 
