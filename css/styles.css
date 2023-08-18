@@ -1179,6 +1179,12 @@ input {
     text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+    .logo-web-ftr {
+        text-align: left;
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .logo-web-ftr {
         display: inline-block; 
