@@ -1888,8 +1888,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
   .menu-container .menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 24px;
+    right: 24px;
     color: #fff;
   }
 
@@ -1958,11 +1958,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 
-  .mob-link {
-    display: inline-block;
-    margin-bottom: 42px;
-  }
-
   .mob-version-list {
     display: flex;
     width: 100%;
@@ -1984,4 +1979,43 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
   .active-page {
     color: var(--primary_brand);
+  }
+
+  .mob-contacts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mob-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mob-info {
+    margin-bottom: 48px;
+  }
+
+  .mob-link {
+    display: inline-block;
+    /* margin-bottom: 42px; */
+  }
+
+  .mob-phone {
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  @media only screen and (max-width: 467px) {
+    .mob-phone {
+      font-size: 27px;
+    }
+  }
+
+  .mob-mail {
+    font-size: 20px;
+    color: var(--dark);
   }
