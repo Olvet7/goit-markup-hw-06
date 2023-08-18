@@ -357,7 +357,7 @@ input {
 .cards {
    display: flex;
    flex-direction: column;
-   gap: 24px;
+   gap: 72px;
    margin: 0 auto;
 }
 
@@ -367,7 +367,7 @@ input {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: 72px;
+        /* gap: 72px; */
         /* padding-left: calc((100% - 268px) / 2);
         padding-right: calc((100% - 268px) / 2); */
     }
@@ -408,7 +408,7 @@ input {
     flex-shrink: 0;
 }
 
-@media screen and (max-width: 467px) {
+@media only screen and (max-width: 467px) {
  .team-member-card:not(:last-child) {
     margin-bottom: 72px;
 }
@@ -1275,9 +1275,10 @@ input {
     .filters {
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
+        /* justify-content: start; */
         max-width: 320px;
         gap: 24px;
+        row-gap: 16px;
     }
 }
 
