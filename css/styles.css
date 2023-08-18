@@ -646,17 +646,11 @@ input {
     display: none;
 } 
 
-.preferences-item: {
+.preferences-item {
     margin-bottom: 72px;
 }
 
-/* @media screen and (max-width: 768px) {
-    .preferences-item {
-        margin-bottom: 72px;
-    }
-} */
-
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 767px) {
     .preferences-item {
         margin-bottom: 72px;
     }
@@ -677,7 +671,8 @@ input {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
+    } 
+
     .preferences-item {
         flex-basis: calc((100% - 24px) / 2);
     }
