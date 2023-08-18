@@ -1055,7 +1055,7 @@ input {
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .ftr-container {
-        width: 584px;
+        /* width: 584px; */
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1084,13 +1084,14 @@ input {
         flex-wrap: nowrap;
         align-items: baseline;
         padding: 0 15px;
+        margin: 0 auto;
         gap: 0;
     }
 }
 
 
 
-@media screen and (min-width: 786px) and (max-width: 1158px){
+@media screen and (min-width: 768px) and (max-width: 1158px){
  .ftr-descr {
     margin: 0;
     max-width: 268px;
