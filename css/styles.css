@@ -172,7 +172,7 @@ input {
     .address-contacts {
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 16px;
     }
 }
 
@@ -180,6 +180,10 @@ input {
     .address-contacts {
         display: flex;
         gap: 40px;
+    }
+    .address {
+        display: inline-block;
+        font-size: 12px;
     }
 }
 /* EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
