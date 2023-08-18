@@ -211,11 +211,9 @@ input {
 }
 
 @media screen and (min-width: 768px) {
-   {
-    .menu-toggle-icon {
+   .menu-toggle-icon {
         display: none;
     }
-  }
 }
 
 
@@ -310,27 +308,25 @@ input {
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), 
+    url(../images/people_office_1.jpg),
     url(../images/people-office_1@2.jpg);
     background-repeat: no-repeat;
     }
 
 @media screen and (min-width: 768px) {
     .hero-image {
-        max-height: 436px;
-        min-width: 768px;
+        /* max-height: 436px;
+        min-width: 768px; */
     }
 }
 
 @media screen and (min-width: 1158px) {
     .hero-image {
-        /* min-width: 1158px; */
-        max-width: 1158px;
+        /* max-width: 1440px;
         /* padding-top: 188px; */
         padding-bottom: 188px;
+        padding-top: 188px;
         margin: 0 auto;
-        /* min-width: 1440px;
-        max-width: 1440px; */
-        /* max-height: 600px; */
     }
 }
 
@@ -648,13 +644,13 @@ input {
 
 @media only screen and (max-width: 467px) {
      .header-tree {
-         font-weight: 700px;
+         font-weight: 700;
       }
  }
 
 @media screen and (min-width: 468px) {
     .header-tree {
-        font-weight: 500px;
+        font-weight: 500;
      }
 }
 
@@ -1466,7 +1462,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     border-top: none; 
 }
 
-.item-list:not (:last-child)::after {
+.item-list:not(:last-child)::after {
     content: '';
     display: block;
 }
@@ -1808,7 +1804,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   .menu-container {
     min-width: 320px;
     max-width: 428px;
-    height: 796;
     padding: 80px 35px 40px 40px;
   }
   
