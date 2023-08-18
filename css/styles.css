@@ -247,7 +247,7 @@ input {
 
 /* Address */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .address {
         display: none;
     }
@@ -378,7 +378,7 @@ input {
    /* margin: 0 auto; */
 }
 
-@media screen and (min-width: 468px) {
+@media screen and (min-width: 428px) {
     .cards {
         gap: 72px;
     }
@@ -433,7 +433,7 @@ input {
     flex-shrink: 0;
 }
 
-@media only screen and (max-width: 467px) {
+@media only screen and (max-width: 427px) {
  .team-member-card:not(:last-child) {
     margin-bottom: 72px;
 }
@@ -668,13 +668,13 @@ input {
     letter-spacing: 0.02em;
 }
 
-@media only screen and (max-width: 467px) {
+@media only screen and (max-width: 427px) {
      .header-tree {
          font-weight: 700;
       }
  }
 
-@media screen and (min-width: 468px) {
+@media screen and (min-width: 428px) {
     .header-tree {
         font-weight: 500;
      }
@@ -843,7 +843,7 @@ input {
         max-width: calc((100% - 16px) / 2);
     }
 
-@media screen and (min-width: 468px) {
+@media screen and (min-width: 428px) {
     .customers-item {
         max-width: calc((100% - 16px) / 2);
     }
@@ -1976,10 +1976,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   .mob-pages:focus {
     color: var(--primary_brand);
   }
-  
-  .active-page {
-    color: var(--primary_brand);
-  }
 
   .mob-contacts {
     display: flex;
@@ -2009,7 +2005,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 36px;
   }
 
-  @media only screen and (max-width: 467px) {
+  @media only screen and (max-width: 427px) {
     .mob-phone {
       font-size: 27px;
     }
@@ -2018,4 +2014,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   .mob-mail {
     font-size: 20px;
     color: var(--dark);
+  }
+
+  .active-page {
+    color: var(--primary_brand);
   }
