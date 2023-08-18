@@ -621,15 +621,13 @@ input {
     }
 }
 
-
-
 .achievement {
     display: block;
     margin: 0 auto;
 }
 
-
-@media screen and (max-width: 1178px) {
+/* не тут */
+@media screen and (max-width: 1158px) {
     .achievement {
         display: none;
     }
@@ -638,7 +636,7 @@ input {
         display: none;
     }
 }
-
+/* не тут */
 @media screen and (min-width: 1158px) {
     .ach-section {
         display: flex;
@@ -648,7 +646,6 @@ input {
     
     .achievement {
         margin-bottom: 72px;
-
     }
 }
 
@@ -1046,6 +1043,7 @@ input {
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .ftr-container {
+        width: 584px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
