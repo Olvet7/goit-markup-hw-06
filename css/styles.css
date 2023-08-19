@@ -97,13 +97,8 @@ input {
     }    
 }
 .container {
-    /* max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px; */
-
-    /* Delete after verst */
-    outline: 2px solid tomato;
-    outline-offset: -2px;
+    /* outline: 2px solid tomato;
+    outline-offset: -2px; */
 }
 
 /* Section Preferenses */
@@ -1976,11 +1971,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms ease-in-out;
     display: flex;
     flex-direction: column;
-    
-    
-
-    outline: 2px solid tomato;
-    outline-offset: -2px;
+    /* outline: 2px solid tomato;
+    outline-offset: -2px; */
   }
 
   @media only screen and (max-width: 767px) {
