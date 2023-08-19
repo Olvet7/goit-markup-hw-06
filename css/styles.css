@@ -602,6 +602,10 @@ input {
     margin-bottom: 72px;
 }
 
+.preferences-item:last-child {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 767px) {
     .preferences-item {
         margin-bottom: 72px;
