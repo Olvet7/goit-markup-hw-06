@@ -103,7 +103,6 @@ input {
     }    
 }
 .container {
-    outline: 2px solid tomato;
     outline-offset: -2px;
 }
 
